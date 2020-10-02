@@ -1,6 +1,6 @@
-function reverseString(str){
+function reverseString(message){
 
-var splitStr = str.split("");
+var splitStr = message.split("");
 var reverseArr = splitStr.reverse();
 var joinArray = reverseArr.join("");
 
